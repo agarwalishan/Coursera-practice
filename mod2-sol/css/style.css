@@ -1,0 +1,54 @@
+* {
+	font-family:"Times New Roman", "Times", "serif";
+	box-sizing: border-box;
+	font-size: 16px;
+}
+h1 {
+	text-align: center;
+	font-size: 1.75em;
+}
+.row {
+	width: 100%;
+	padding: 10px;
+}
+section {
+	border: 1px solid black;
+	height: 150px;
+	width: 93%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	background-color: #DCDCDC;
+	overflow: auto;
+}
+#title {
+	border: 1px solid black;
+	float: right;
+	font-size: 1.25em;
+	padding: 0px;
+}
+#content {
+	clear: right;
+	clear: left;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 20px;
+	width: 90%;
+}
+@media (min-width: 992px){
+	.col-lg-4 {
+		float: left;
+		width: 33.33%;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.col-md-6 {
+		float: left;
+		width: 50%;
+	}
+	.col-md-12 {
+		float: left;
+		width: 100%;
+	}
+}
